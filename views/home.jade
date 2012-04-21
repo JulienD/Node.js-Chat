@@ -1,0 +1,12 @@
+#container
+    #logo
+        a(href='/')
+            img(src='/images/logo.png')
+    #display
+        #login                
+            form(method="post", id="login", onsubmit="return (sendAnnouncement());")            
+                | Enter your name if you want to join the chat.
+                div
+                    input(type='text', name='username')
+                    input(type='submit', value='Log In')
+        
